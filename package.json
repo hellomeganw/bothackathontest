@@ -1,0 +1,22 @@
+{
+  "name": "bothackathontest",
+  "version": "1.0.0",
+  "description": "Bot Sh*t Crazy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellomeganw/bothackathontest.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hellomeganw/bothackathontest/issues"
+  },
+  "homepage": "https://github.com/hellomeganw/bothackathontest#readme"
+}
