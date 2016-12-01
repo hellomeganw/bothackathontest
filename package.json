@@ -4,6 +4,8 @@
   "description": "Bot Sh*t Crazy",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/hellomeganw/bothackathontest/issues"
   },
-  "homepage": "https://github.com/hellomeganw/bothackathontest#readme"
+  "homepage": "https://github.com/hellomeganw/bothackathontest#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  }
 }
