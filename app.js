@@ -258,8 +258,7 @@ function receivedMessage(event) {
       case 'image':
         sendImageMessage(senderID);
         break;
-
-        case (messageText){
+        
       case 'Monday':
         sendTextMessage(senderID, "Cheese Pizza");
         break;
