@@ -279,7 +279,7 @@ function receivedMessage(event) {
         sendTextMessage(senderID, "🕦The cafe opens at 11:30am PST today🕦");
         break;
         
-      case 'What should I eat for lunch today?":
+      case 'What should I eat for lunch today?':
         sendTextMessage(senderID, "🍩🍩🍩");
         break;
         
