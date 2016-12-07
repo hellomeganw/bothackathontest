@@ -292,7 +292,7 @@ function receivedMessage(event) {
         break;
         
       case 'What is you favorite thing to eat?':
-        sendTextMessage(sender ID, "Grilled Cheese!");
+        sendTextMessage(senderID, "Grilled Cheese!");
                         break; 
         
       case 'gif':
