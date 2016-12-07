@@ -259,16 +259,28 @@ function receivedMessage(event) {
         sendImageMessage(senderID);
         break;
         
-      case 'Monday Pizza':
-        sendTextMessage(senderID, "Pepperoni Pizza 🍕");
+      case 'Monday pizza':
+        sendTextMessage(senderID, "🍕Pepperoni Pizza 🍕");
         break;
         
       case 'Wednesday soup':
-        sendTextMessage(senderID, "Noodle soup 🍜");
+        sendTextMessage(senderID, "🍜Noodle soup 🍜");
         break;
         
       case 'Thursday burger':
-        sendTextMessage(senderID, "Western bacon cheese burger 🍔");
+        sendTextMessage(senderID, "🍔Western bacon cheese burger 🍔");
+        break;
+        
+      case 'Busy?':
+        sendTextMessage(senderID, "👥👥🙆👥👥");
+        break;
+        
+      case 'What time does the cafe open?':
+        sendTextMessage(senderID, "🕦The cafe opens at 11:30am PST today🕦");
+        break;
+        
+      case 'What should I eat for lunch today?":
+        sendTextMessage(senderID, "🍩🍩🍩");
         break;
         
         
