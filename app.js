@@ -283,6 +283,17 @@ function receivedMessage(event) {
         sendTextMessage(senderID, "🍩🍩🍩");
         break;
         
+      case 'What about at 1:30pm?':
+        sendTextMessage(senderID, "Not too busy");
+        break;
+        
+      case 'Thanks!':
+        sendTextMessage(senderID, "No problem 😊");
+        break;
+        
+      case 'What is you favorite thing to eat?':
+        sendTextMessage(sender ID, "Grilled Cheese!");
+                        break; 
         
       case 'gif':
         sendGifMessage(senderID);
