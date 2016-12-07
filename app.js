@@ -259,9 +259,18 @@ function receivedMessage(event) {
         sendImageMessage(senderID);
         break;
         
-      case 'Monday':
-        sendTextMessage(senderID, "Cheese Pizza");
+      case 'Monday Pizza':
+        sendTextMessage(senderID, "Pepperoni Pizza 🍕");
         break;
+        
+      case 'Wednesday soup':
+        sendTextMessage(senderID, "Noodle soup 🍜");
+        break;
+        
+      case 'Thursday burger':
+        sendTextMessage(senderID, "Western bacon cheese burger 🍔");
+        break;
+        
         
       case 'gif':
         sendGifMessage(senderID);
